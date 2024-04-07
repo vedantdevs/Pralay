@@ -80,3 +80,19 @@
   font-size: 15px;
   margin-right: 20px;
 }
+
+.abtus{
+  position: absolute;
+  top: 60px; /* Adjust as needed */
+  right: 60px; /* Adjust as needed */
+  background-color: #9500ff;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  text-decoration-line: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
