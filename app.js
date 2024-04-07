@@ -37,6 +37,8 @@ window.addEventListener('load', ()=>{
     wishMe();
 })
 
+
+
 const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
 const recognition = new SpeechRecognition();
 
