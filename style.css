@@ -81,11 +81,11 @@
   margin-right: 20px;
 }
 
-.fa .fa-home{
+.main .abtus-logo{
   position: absolute;
-  top: 60px; /* Adjust as needed */
-  right: 60px; /* Adjust as needed */
-  background-color: greenyellow;
+  top: 30px; /* Adjust as needed */
+  right: 30px; /* Adjust as needed */
+  background-color: white;
   border: none;
   border-radius: 50%;
   width: 40px;

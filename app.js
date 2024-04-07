@@ -53,6 +53,7 @@ btn.addEventListener('click', ()=>{
     recognition.start();
 })
 
+
 function speakThis(message) {
     const speech = new SpeechSynthesisUtterance();
 
