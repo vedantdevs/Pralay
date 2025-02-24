@@ -1,80 +1,36 @@
-# Pralay - AI-Powered Web Assistant 🌐🤖
+# 🤖 Pralay - The AI Web Virtual Assistant
 
-![GitHub stars](https://img.shields.io/github/stars/vedantdevs/pralay?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/vedantdevs/pralay?style=for-the-badge)
+![GitHub stars](https://img.shields.io/github/stars/vedantdevs/pralay-bot?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/vedantdevs/pralay-bot?style=for-the-badge)
+![GitHub issues](https://img.shields.io/github/issues/vedantdevs/pralay-bot?style=for-the-badge)
 
 ## 🚀 About Pralay
-**Pralay** is a smart web-based virtual assistant that helps users automate tasks, search the web, and interact using voice commands. Powered by JavaScript, it enhances productivity and efficiency with seamless voice control.
+Pralay is an AI-powered web virtual assistant designed to provide seamless automation, smart responses, and interactive assistance. Whether you need quick answers, productivity tools, or intelligent interactions, Pralay is built to assist users efficiently with an intuitive experience.
 
-## ⚡ Features
-- 🎙️ **Voice & Text Command Support** - Talk or type to interact with Pralay.
-- 🌍 **Web Automation** - Open websites, search Google, and get instant results.
-- ⏳ **Time & Date Functions** - Ask for the current time and date.
-- 🔖 **Predefined Commands** - Quick access to Google, YouTube, Gmail, and more.
-- 🔍 **Web Search** - Directly search Google, Wikipedia, and other platforms.
-- 🎵 **Entertainment Access** - Open Spotify, news sites, and streaming services.
-- 🛒 **E-commerce Shortcuts** - Instantly open Amazon, Flipkart, and other stores.
-- 📆 **Calendar & Productivity** - Open Google Calendar and task management sites.
+🌐 **Official Website**: [pralay.pages.dev](https://pralay.pages.dev)
 
-## 📸 Screenshot  
-> A glimpse of Pralay in action!  
+## 🔥 Key Features
+- 🧠 **AI-Powered Intelligence** - Get instant responses, smart suggestions, and automation
+- 📅 **Productivity Assistance** - Manage schedules, reminders, and tasks effortlessly
+- 🌍 **Live News & Updates** - Stay updated with the latest news worldwide
+- 🔍 **Information Retrieval** - Get instant answers and research data quickly
+- 🎭 **Interactive & Fun Commands** - Engage with jokes, facts, and casual conversations
+- 🔒 **Secure & Private** - Ensuring user privacy and safe interactions
 
+## 📸 Web Interface Showcase
 <p align="center">
-  <img src="https://raw.githubusercontent.com/vedantdevs/pralay/main/pralay.png" width="70%" alt="Pralay in Action">
+  <img src="https://raw.githubusercontent.com/vedantdevs/pralay/main/pralay.png" width="70%">
 </p>
 
-## 🛠️ Installation
-```bash
-# Clone the repository
-git clone https://github.com/vedantdevs/pralay.git
+## 🏆 Why Choose Pralay?
+Pralay is built with cutting-edge AI capabilities, offering users a smarter, faster, and more interactive experience for their web-based virtual assistant needs.
 
-# Navigate to the project directory
-cd pralay
-```
+## 🤝 Contributing & Support
+This project is developed and maintained by **Vedant Singh**. For inquiries, collaborations, or support, visit the official website or reach out on GitHub.
 
-## 🚀 Usage
-1. Open `index.html` in a browser.
-2. Click the **Talk** button to activate voice recognition.
-3. Speak commands like "Open Google" or "What's the time?".
-
-## 📝 Code Overview
-Pralay is powered by a JavaScript script that utilizes the **Web Speech API** for speech recognition and synthesis. Commands are processed dynamically, allowing quick responses and actions.
-
-### 🔧 Key File: `app.js`
-```javascript
-const btn = document.querySelector('.talk');
-const content = document.querySelector('.content');
-
-// Voice synthesis function
-function speak(sentence) {
-    const text_speak = new SpeechSynthesisUtterance(sentence);
-    text_speak.rate = 1;
-    text_speak.pitch = 1;
-    window.speechSynthesis.speak(text_speak);
-}
-
-// Recognizing voice commands
-const recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
-recognition.onresult = (event) => {
-    const transcript = event.results[0][0].transcript;
-    content.textContent = transcript;
-    processCommand(transcript.toLowerCase());
-};
-
-btn.addEventListener('click', () => recognition.start());
-```
-
-## 📌 Future Plans
-- ✅ Expand voice command functionalities.
-- ✅ Integrate AI-powered responses.
-- ✅ Add multilingual support.
-
-## 🤝 Contributing
-Want to improve Pralay? Feel free to fork the repository, create a new branch, and submit a pull request!
-
-## 📝 License
-This project is licensed under the **MIT License**.
+## ❌ License & Usage
+Pralay is **privately managed** and not open for public modification or redistribution.
 
 ---
-🔗 Follow me on [GitHub](https://github.com/vedantdevs) for more awesome projects!
+✨ **Experience the next level of AI assistance with Pralay today!**
 
