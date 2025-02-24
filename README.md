@@ -1,13 +1,13 @@
 # 🤖 Pralay - The AI Web Virtual Assistant
 
-![GitHub stars](https://img.shields.io/github/stars/vedantdevs/pralay-bot?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/vedantdevs/pralay-bot?style=for-the-badge)
-![GitHub issues](https://img.shields.io/github/issues/vedantdevs/pralay-bot?style=for-the-badge)
+![GitHub stars](https://img.shields.io/github/stars/vedantdevs/pralay?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/vedantdevs/pralay?style=for-the-badge)
+![GitHub issues](https://img.shields.io/github/issues/vedantdevs/pralay?style=for-the-badge)
 
 ## 🚀 About Pralay
 Pralay is an AI-powered web virtual assistant designed to provide seamless automation, smart responses, and interactive assistance. Whether you need quick answers, productivity tools, or intelligent interactions, Pralay is built to assist users efficiently with an intuitive experience.
 
-🌐 **Official Website**: [pralay.pages.dev](https://pralay.pages.dev)
+🌐 **Official Website**: [justpralay.pages.dev](https://justpralay.pages.dev)
 
 ## 🔥 Key Features
 - 🧠 **AI-Powered Intelligence** - Get instant responses, smart suggestions, and automation
